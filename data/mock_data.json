@@ -1,0 +1,37 @@
+{
+  "customer": {
+    "name": "Alex Morgan",
+    "customer_id": "CUST1001"
+  },
+  "accounts": {
+    "checking": {"balance": 2543.12, "currency": "USD"},
+    "savings": {"balance": 15230.45, "currency": "USD"}
+  },
+  "cards": {
+    "debit": {"status": "active", "last4": "4821"},
+    "credit": {"status": "active", "last4": "9273"}
+  },
+  "transactions": [
+    {"date": "2026-07-22", "description": "Grocery Store", "amount": -84.32},
+    {"date": "2026-07-20", "description": "Salary Deposit", "amount": 3200.00},
+    {"date": "2026-07-18", "description": "Electric Bill", "amount": -112.50},
+    {"date": "2026-07-15", "description": "Coffee Shop", "amount": -6.75},
+    {"date": "2026-07-12", "description": "Online Transfer to Savings", "amount": -500.00}
+  ],
+  "loans": [
+    {"type": "Home Loan", "blurb": "Fixed and adjustable-rate mortgages up to 30 years, starting at 6.25% APR, with as little as 5% down."},
+    {"type": "Personal Loan", "blurb": "Unsecured loans up to $35,000 with fixed rates starting at 8.99% APR, funded as soon as next business day."},
+    {"type": "Auto Loan", "blurb": "New and used car financing up to 72 months, rates starting at 5.49% APR."},
+    {"type": "Student Loan", "blurb": "Flexible repayment plans for undergraduate and graduate students, rates starting at 4.75% APR."}
+  ],
+  "interest_rates": {
+    "savings": "1.75% APY",
+    "checking": "0.10% APY",
+    "fixed_deposit_12mo": "4.50% APY"
+  },
+  "branches": [
+    {"name": "Downtown Branch", "address": "120 Main St, Springfield"},
+    {"name": "Westside Branch", "address": "45 Elm Ave, Springfield"},
+    {"name": "Northgate Branch", "address": "870 Oak Blvd, Springfield"}
+  ]
+}
