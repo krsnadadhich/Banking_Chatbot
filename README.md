@@ -1,4 +1,4 @@
-#Banking Chatbot
+# Banking Chatbot
 
 A small AI-powered banking chatbot with intent recognition and simple dialog
 management, served through a minimal web chat UI. It answers common banking
